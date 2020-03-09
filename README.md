@@ -13,18 +13,16 @@ run BUSCO (tested with version 3) for a given reference genome and a query genom
 
 For Lepidoptera, I typically run like this:
 
-```screen -L python run_BUSCO.py -i ./Heliconius_melpomene_melpomene_Hmel2.5.scaffolds.fa -m geno -c 60 -o Hmel2.5 --limit 4 -z -l ~/bin/busco_v3/DB/endopterygota_odb9 -sp heliconius_melpomene1 --long```
+``` screen -L python run_BUSCO.py -i ./Heliconius_melpomene_melpomene_Hmel2.5.scaffolds.fa -m geno -c 60 -o Hmel2.5 --limit 4 -z -l ~/bin/busco_v3/DB/endopterygota_odb9 -sp heliconius_melpomene1 --long```
 
 ### Required options
-```-q (query fasta)```
-
-```-t (BUSCO "full_table_" output file from query fasta)```
-
-```-r (BUSCO "full_table_" output file reference fasta)```
+``` -q (query fasta)```
+``` -t (BUSCO "full_table_" output file from query fasta)```
+``` -r (BUSCO "full_table_" output file reference fasta)```
 
 ### Run with defaults
 
-```python3.8 BUSCO_2_Chrom.py -q GCA_902806685.1_iAphHyp1.1_genomic.fna -t Query_table.txt -r Hmel2_full_table.txt```
+``` python3.8 BUSCO_2_Chrom.py -q GCA_902806685.1_iAphHyp1.1_genomic.fna -t Query_table.txt -r Hmel2_full_table.txt```
 
 
 ## Outputs :microscope:
