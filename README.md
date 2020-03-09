@@ -1,5 +1,5 @@
 # Quick BUSCO karyotyping :butterfly: :twisted_rightwards_arrows: :butterfly: #
-Mapping BUSCO genes from a reference genome to a new assembly to quickly infer simple rearrangement events in Lepidoptera
+Mapping BUSCO genes from a reference genome to a new assembly to crudely infer simple rearrangement events in Lepidoptera
 
 ## Requirements:
 * Python 3
