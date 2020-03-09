@@ -38,7 +38,7 @@ parser.add_argument('-m', action='store',
                     help='Minimum length to consider a sequence as a chromosome')
 
 parser.add_argument('-b', action='store',
-                    dest='minb', default=6,
+                    dest='minb', default=10,
                     help='Minimum number of BUSCOs to assign ancestry')
 
 parser.add_argument('--verbose',dest='verb', action='store_true', help='print additional output')
