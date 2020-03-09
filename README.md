@@ -1,4 +1,4 @@
-# BUSCO_karyotyping :butterfly: :twisted_rightwards_arrows: :butterfly: #
+# Quick BUSCO karyotyping :butterfly: :twisted_rightwards_arrows: :butterfly: #
 Mapping BUSCO genes from a reference genome to a new assembly to quickly infer simple rearrangement events in Lepidoptera
 
 ## Requirements:
