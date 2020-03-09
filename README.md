@@ -26,7 +26,7 @@ screen -L python run_BUSCO.py -i ./Heliconius_melpomene_melpomene_Hmel2.5.scaffo
 ### Run with defaults
 
 ```
-python3.8 BUSCO_2_Chrom.py -q GCA_902806685.1_iAphHyp1.1_genomic.fna -t Query_table.txt -r Hmel2_full_table.txt
+python3.8 BUSCO_2_Chrom.py -q GCA_902806685.1_iAphHyp1.1_genomic.fna -t Query_table.txt -r Px_full_table.txt
 ```
 
 
