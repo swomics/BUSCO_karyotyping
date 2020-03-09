@@ -32,4 +32,4 @@ Suggested additional chromosome naming based on identity and amount of reference
 
 Additionally, a pdf file is generated displaying a one sided alignment. Specifically, the query genome karyotype along with the specific identity and reference chromosome information of individual BUSCO genes.
 
-![Alt text](./output.pdf?raw=true "Example output plot")
+![Example output pdf](./output.pdf?raw=true "Example output plot")
