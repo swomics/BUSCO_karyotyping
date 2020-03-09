@@ -1,7 +1,7 @@
 # Quick BUSCO karyotyping :butterfly: :twisted_rightwards_arrows: :butterfly: #
 Mapping BUSCO genes from a reference genome to a new assembly to enable more consistent chromosome numbering and crudely infer large scale fissions/fusions
 
-## Dependencies :persevere:
+## Dependencies
 * Python 3
 * (Python 3 module) Biopython
 * (Python 3 module) seaborn
@@ -22,7 +22,7 @@ For Lepidoptera, I typically run like this:
 
 > -r (BUSCO "full_table_" output file reference fasta)
 
-### Run with defaults :running:
+### Run with defaults
 
 > python3.8 BUSCO_2_Chrom.py -q GCA_902806685.1_iAphHyp1.1_genomic.fna -t Query_table.txt -r Hmel2_full_table.txt
 
