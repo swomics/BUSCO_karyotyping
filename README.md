@@ -34,6 +34,6 @@ python3.8 BUSCO_2_Chrom.py -q GCA_902806685.1_iAphHyp1.1_genomic.fna -t Query_ta
 
 1. Prints the original scaffold name with a suggested appendix based on identity and amount of reference BUSCO genes. For example, LR761654.1_Chr10(36)Chr12(59), denotes the original scaffold name and that it contains 36 BUSCO genes derived from reference chromosome 10 and 59 BUSCO genes derived from chromosome 12.
 
-2. Outputs a pdf file (default `-o output.pdf`) displaying a one sided alignment. Specifically, the query genome karyotype along with the specific identity and reference chromosome information of individual BUSCO genes. Requires magnification/zoom! :mag:
+2. Outputs a pdf file (default `-o output.pdf`) effectively displaying one sided of an alignment. Specifically, the query genome karyotype along with the specific identity and reference chromosome information of individual BUSCO genes. Requires magnification/zoom! :mag:
 
 ![Example output pdf](./output.pdf?raw=true "Example output plot")
