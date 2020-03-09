@@ -196,9 +196,9 @@ for key in karyotype_content_dict:
     count = Counter(karyotype_content_dict[key])
     newDict = filterTheDict(count, lambda elem: elem[1] >= args.minb)
     print(key,key,end="_",sep="\t")
-    for item, amount in newDict.items():  # dct.iteritems() in Python 2
+    for item, amount in newDict.items(): 
         print("{}({})".format(item, amount),end="")
     print("\t",key,sep="\t",end="_")
-    for item, amount in newDict.items():  # dct.iteritems() in Python 2
+    for item, amount in newDict.items(): 
         print("{}".format(item),end="")
     print()
