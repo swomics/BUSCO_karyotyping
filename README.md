@@ -9,7 +9,7 @@ Mapping BUSCO genes from a reference genome to a new assembly to enable more con
 
 ## Running:
 
-run BUSCO (tested with version 3) for a given reference genome and a query genome. Ensure that chromosomes in the reference are labelled suitably (e.g. Chr10).
+run BUSCO (tested with version 3) for a given reference genome and a query genome. Ensure that chromosomes in the reference are labelled suitably. I used ChrXX for autosomes (e.g. Chr10) and Chr1z for the Z.
 
 For Lepidoptera, I typically run like this:
 
