@@ -1,5 +1,5 @@
 # Quick BUSCO karyotyping :butterfly: :twisted_rightwards_arrows: :butterfly: #
-Mapping BUSCO genes from a reference genome to a new assembly to enable more consistent chromosome numbering and crudely infer fissions/fusions
+Mapping BUSCO genes from a reference genome to a new assembly to enable more consistent chromosome numbering and crudely infer large scale fissions/fusions
 
 ## Requirements:
 * Python 3
