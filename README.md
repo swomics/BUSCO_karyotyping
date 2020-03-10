@@ -36,4 +36,4 @@ python3.8 BUSCO_2_Chrom.py -q GCA_902806685.1_iAphHyp1.1_genomic.fna -t Query_ta
 
 2. Outputs a pdf file (default `-o output.pdf`) effectively displaying one side of an alignment. Specifically, the query genome karyotype along with the specific identity and reference chromosome information of individual BUSCO genes. Requires magnification/zoom! :mag:
 
-![Example output pdf](./output.pdf?raw=true "Example output plot")
+![Example output pdf](./Px_output.pdf?raw=true "Example output plot")
